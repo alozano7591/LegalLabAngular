@@ -34,4 +34,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/` make build, but will need to copy and past contents to docs folder
 
-`ng deploy --base-href=https://alozano7591.github.io/PagesAngularTest/` the exact command to deploy
+`ng deploy --base-href=https://alozano7591.github.io/LegalLabAngular/` the exact command to deploy
