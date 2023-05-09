@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import {CommonModule} from "@angular/common";
 
 //pages
@@ -8,10 +8,20 @@ import{AboutComponent} from "./components/about/about.component";
 import{ServicesComponent} from "./components/services/services.component";
 import{ContactComponent} from "./components/contact/contact.component";
 
+const routerOptions: ExtraOptions = {
+  scrollPositionRestoration: 'enabled',
+  anchorScrolling: 'enabled',
+  scrollOffset: [0, 64],
+};
+
 const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
+    component: HomeComponent
+  },
+  {
+    path: 'home',
     component: HomeComponent
   },
   {
@@ -30,7 +40,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [CommonModule, RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

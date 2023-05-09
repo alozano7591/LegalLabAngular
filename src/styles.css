@@ -168,7 +168,7 @@ footer{
     width: 100%;
     display: inline;
     /*padding: auto;  no longer supported*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
   }
 
   nav{
@@ -218,7 +218,7 @@ footer{
     width: 100%;
     display: inline;
     /*padding: auto;  no longer supported*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
   }
 
   /**** Start Nav ****/
