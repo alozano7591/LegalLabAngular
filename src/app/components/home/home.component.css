@@ -126,9 +126,11 @@ img{
 
 .welcomeImage{
   text-align: center;
+  height: 400px;
 }
 
 .welcomeImage img{
+  object-fit: contain;
   width: 80%;
 }
 
@@ -330,6 +332,8 @@ img{
 
 .practiceItems img{
   width: 100%;
+  object-fit: contain;
+  max-height: 340px;
 }
 
 .practiceItem{

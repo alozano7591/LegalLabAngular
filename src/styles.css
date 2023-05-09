@@ -4,6 +4,13 @@ body{
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   /* font-family: 'Poppins', sans-serif; */
+  margin: 0;
+}
+
+main{
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 h1{
@@ -39,11 +46,6 @@ header img:hover{
 }
 
 .titleHeader{
-  /*
-  display: grid;
-  grid-template-columns: 1fr 7fr;
-  grid-gap: 40px;
-  */
   display: flex;
 }
 
@@ -93,69 +95,6 @@ nav ul li a:hover{
   text-decoration: underline;
 }
 
-main{
-  width: 100%;
-}
-
-
-/**** Footer Section ****/
-
-footer{
-  color: white;
-  background-color:rgb(27, 30, 35);
-
-  padding: 55px 0;
-
-  text-align: center;
-
-  display: grid;
-  grid-gap: 0 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  justify-content: center;
-  /* align-items: center; */
-}
-
-.footerLogo img{
-
-  height: 120px;
-}
-
-.footerContact{
-  line-height: 10px;
-}
-
-.footerConnect h2{
-  font-weight: bold;
-}
-
-.footerConnect img{
-  height: 50px;
-}
-
-.footerLocations{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-
-  justify-content: center;
-  align-items: center;
-}
-
-
-.socialMediaLinks{
-
-
-  justify-content: center;
-  align-items: center;
-}
-
-.socialMediaLinks a{
-  margin: 15px;
-}
-
-/**** reactive section still in progress END****/
-
 
 @media only screen and (max-width: 1150px){
 
@@ -167,7 +106,6 @@ footer{
   .titleHeader{
     width: 100%;
     display: inline;
-    /*padding: auto;  no longer supported*/
     /*margin: 0 auto;*/
   }
 
@@ -182,17 +120,6 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 0;
     padding: 0;
-
-  }
-
-  .footerLocations{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-gap: 5px;
-
-    justify-content: center;
-    align-items: center;
-
 
   }
 
@@ -217,7 +144,6 @@ footer{
   .titleHeader{
     width: 100%;
     display: inline;
-    /*padding: auto;  no longer supported*/
     /*margin: 0 auto;*/
   }
 
@@ -243,65 +169,5 @@ footer{
   }
 
   /**** End Hero ****/
-
-  /**** Footer Section ****/
-
-  footer{
-
-    padding: 55px 0;
-
-    text-align: center;
-
-    display:block;
-
-  }
-
-  .footerLogo img{
-
-    height: 120px;
-    padding: 0 0 20px 0;
-  }
-
-  .footerContact{
-    line-height: 10px;
-  }
-
-  .footerConnect h2{
-    font-weight: bold;
-  }
-
-  .footerConnect img{
-    height: 50px;
-  }
-
-  .footerLocations{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-gap: 5px;
-
-    justify-content: center;
-    align-items: center;
-
-
-  }
-
-
-  .socialMediaLinks{
-
-
-    justify-content: center;
-    align-items: center;
-  }
-
-  .socialMediaLinks a{
-    margin: 15px;
-    text-decoration: none;
-  }
-
-  .socialMediaLinks{
-    text-decoration: none;
-  }
-
-  /**** Footer Section END****/
 
 }
