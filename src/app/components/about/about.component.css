@@ -1,0 +1,278 @@
+/**** Hero Section ****/
+
+.hero{
+  position: relative;
+  height: 600px;;
+}
+
+.hero img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:left center ;
+  padding: 0;
+  margin: 0;
+}
+
+.heroTextContainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(46, 48, 56, 0.5);
+  padding: 20px;
+  color:whitesmoke;
+
+}
+
+.aboutHeroText{
+  text-align:center;
+}
+
+.aboutHeroText h2{
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 600px;
+}
+
+
+/**** Hero Section END ****/
+
+
+/**** Welcome to Legal Section ****/
+
+.teamIntro{
+  padding: 80px 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color:rgb(233, 233, 233);
+  /*background-image: url("assets/images/backgrounds/white_wall_hash.webp");*/
+
+}
+
+.teamIntroImage{
+  text-align: center;
+
+}
+
+.teamIntroImage img{
+  /* height: 450px; */
+  width: 80%;
+}
+
+.teamIntroText{
+  width: 75%;
+  line-height: 35px;
+}
+
+.teamIntroText h2{
+  font-size: 40px;
+  /* color: green; */
+  color: black;
+  font-weight: bold;
+}
+
+.teamIntroText p{
+  font-size: 20px;
+
+}
+
+/**** Welcome to Legal Section END****/
+
+
+/**** Team Section ****/
+
+.ourTeam{
+  text-align: center;
+
+  padding: 55px 185px;
+}
+
+.ourTeam h1{
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.ourTeam h3{
+  font-size: 18px;
+  font-weight: normal;
+  /* color: green; */
+  color: black;
+  font-style: italic;
+  line-height: 0;
+}
+
+.ourTeamItems{
+
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.ourTeamItem img{
+  width: 80%;
+
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/** fixes Jennifer's picture positioning **/
+.ourTeamItem:first-child img{
+  object-position: center;
+}
+
+.ourTeamItem{
+  border: 1px solid rgb(197, 197, 197);
+  box-shadow: 10px 10px 10px 10px #888888;
+
+  padding: 10px;
+  flex: 450px;
+  max-width: 500px;
+
+  line-height: 28px;
+
+  min-height: 450px;
+}
+
+.ourTeamItem h2{
+  /* color: green; */
+  color: black;
+}
+
+/**** Practice Section END ****/
+
+@media only screen and (max-width: 1150px){
+
+  .teamIntro{
+    grid-template-columns: 1fr;
+
+  }
+
+  .teamIntroText{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  .ourTeam{
+    text-align: center;
+
+    padding: 55px 25px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+  /**** Welcome to Legal Section ****/
+
+  .heroTextContainer{
+    padding: 0;
+  }
+
+  .aboutHeroText{
+    width: 100%;
+    padding: 0;
+  }
+
+  .teamIntro{
+    /* height: 1200px; */
+    display:block;
+
+    padding: 50px 0px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: none;
+    background-color:rgb(233, 233, 233);
+
+  }
+
+
+
+  .teamIntroImage{
+    text-align: center;
+
+  }
+
+  .teamIntroImage img{
+    width: 100%;
+  }
+
+  .teamIntroText{
+    width: 100%;
+
+    text-align: center;
+  }
+
+  /**** Welcome to Legal Section END****/
+
+  /**** Team Section ****/
+
+  .ourTeam{
+    text-align: center;
+
+    padding: 10px 0px;
+  }
+
+  .ourTeam h1{
+    font-size: 70px;
+    font-weight: normal;
+  }
+
+  .ourTeam h3{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 0;
+  }
+
+  .ourTeamItems{
+
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    object-fit: cover;
+
+  }
+
+  .ourTeamItem img{
+    width: 100%;
+
+  }
+
+  .ourTeamItem{
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: 10px 10px 10px 10px #888888;
+
+    padding: 10px;
+    flex: 450px;
+    max-width: 500px;
+
+    line-height: 28px;
+  }
+
+  /**** Practice Section END ****/
+
+}

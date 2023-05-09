@@ -1,0 +1,113 @@
+/**** Hero Section ****/
+
+.hero{
+  position: relative;
+  text-align: right;
+  height: 600px;
+}
+
+.hero img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center ;
+  padding: 0;
+  margin: 0;
+}
+
+.heroTextContainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(46, 48, 56, 0.5);
+  padding: 20px;
+  color:whitesmoke;
+
+}
+
+.servicesHeroText{
+  text-align:center;
+}
+
+.servicesHeroText h2{
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 600px;
+}
+
+
+/**** Hero Section END ****/
+
+
+
+/**** Team Section ****/
+
+.servicesSect{
+  text-align: center;
+  padding: 55px 185px;
+}
+
+.servicesSect h1{
+  font-size: 70px;
+}
+
+.servicesSect h3{
+  font-size: 24px;
+  font-style: italic;
+  /* color: green; */
+  color: black;
+  line-height: 0;
+}
+
+.serviceItems{
+
+  display: flex;
+  gap: 35px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+
+.serviceItem img{
+  width: 100%;
+}
+
+.serviceItem{
+
+  flex: 450px;
+  max-width: 500px;
+
+}
+
+.serviceItem p{
+  line-height: 28px;
+}
+
+/**** Practice Section END ****/
+
+@media only screen and (max-width: 1150px){
+
+  .servicesSect{
+    text-align: center;
+    padding: 55px 25px;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .servicesSect h1{
+    font-size: 60px;
+  }
+
+  .servicesSect{
+    text-align: center;
+    padding: 55px 0px;
+  }
+
+}
