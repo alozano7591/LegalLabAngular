@@ -28,7 +28,6 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "baseHref": "https://alozano7591.github.io/LegalLabAngular/",
             "scripts": []
           },
           "configurations": {
