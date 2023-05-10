@@ -43,3 +43,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `ng deploy --base-href=https://alozano7591.github.io/LegalLabAngular/` the exact command to deploy
 
 `ng build --configuration production --output-path docs --base-href=https://alozano7591.github.io/LegalLabAngular/` another option for building to path docs and then to base-hrefy
+
+
+https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-refresh-through-the-browser
