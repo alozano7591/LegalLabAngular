@@ -18,6 +18,8 @@ Run `ng generate module app-routing --flat --module=app`
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+`ng build --configuration production` For more lightweight
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -39,3 +41,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `ng deploy --base-href=https://GithubUserName.github.io/GithubRepoName/` make build, but will need to copy and past contents to docs folder
 
 `ng deploy --base-href=https://alozano7591.github.io/LegalLabAngular/` the exact command to deploy
+
+`ng build --configuration production --output-path docs --base-href=https://alozano7591.github.io/LegalLabAngular/` another option for building to path docs and then to base-hrefy
