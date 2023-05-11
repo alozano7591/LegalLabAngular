@@ -44,6 +44,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 `ng build --configuration production --output-path docs --base-href=https://alozano7591.github.io/LegalLabAngular/` another option for building to path docs and then to base-hrefy
 
-github build requires a copy of index to 404.html
+github build requires a copy of index to 404.html, otherwise refreshing or going directly to pages beyong index will get 404 error.
 
 https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-refresh-through-the-browser

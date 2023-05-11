@@ -107,7 +107,8 @@
   /* color: green; */
   color: black;
   font-style: italic;
-  line-height: 0;
+  line-height: 18px;
+  overflow-wrap:break-word;
 }
 
 .ourTeamItems{
@@ -240,7 +241,7 @@
     font-size: 18px;
     font-weight: normal;
     font-style: italic;
-    line-height: 0;
+    line-height: 18px;
   }
 
   .ourTeamItems{
