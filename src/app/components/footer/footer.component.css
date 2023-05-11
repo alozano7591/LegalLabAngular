@@ -1,5 +1,10 @@
 /**** Footer Section ****/
 
+h3{
+  font-size: larger;
+  font-weight: bold;
+}
+
 footer{
   color: white;
   background-color:rgb(27, 30, 35);

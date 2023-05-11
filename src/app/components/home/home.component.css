@@ -55,6 +55,7 @@ img{
   font-size: 75px;
   text-align: right;
   font-weight: bold;
+  font-weight: normal;
 }
 
 .herotext p{
@@ -184,7 +185,7 @@ img{
 .testimonialBlock{
 
   position: relative;
-  background-color: rgba(3, 3, 3, 0.63);
+  background-color: rgba(3, 3, 3, 0.56);
   width: 70%;
   min-width: 680px;
   height: 550px;
