@@ -47,3 +47,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 github build requires a copy of index to 404.html, otherwise refreshing or going directly to pages beyong index will get 404 error.
 
 https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-refresh-through-the-browser
+
+
+## legallab (godaddy)
+
+`ng build --base-href /legallab.ca/` This will simply go to dist folder instead of docs, keeping the buils separate 
+
+`ng build --configuration production --base-href=https://legallab.ca/`
