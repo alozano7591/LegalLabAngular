@@ -51,6 +51,6 @@ https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-re
 
 ## legallab (godaddy)
 
-`ng build --base-href /legallab.ca/` This will simply go to dist folder instead of docs, keeping the buils separate 
+`ng build --base-href /legallab.ca/` This will simply go to dist folder instead of docs, keeping the builds separate 
 
 `ng build --configuration production --base-href=https://legallab.ca/`
