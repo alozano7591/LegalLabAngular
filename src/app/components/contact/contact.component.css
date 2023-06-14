@@ -104,8 +104,8 @@
   border-radius: 25px;
 
   /* max-width: 500px; */
-  width:320px;
-  height: 260px;
+  width:400px;
+  height: 300px;
   min-width: 200px;
 
   border: 1px solid rgb(197, 197, 197);
@@ -202,6 +202,14 @@
 
     justify-content: center;
 
+  }
+
+  .contactItem{
+
+    /* max-width: 500px; */
+    width:350px;
+    height: 300px;
+    min-width: 200px;
   }
 
   /******* Locations ******/

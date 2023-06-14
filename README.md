@@ -54,3 +54,5 @@ https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-re
 `ng build --base-href /legallab.ca/` This will simply go to dist folder instead of docs, keeping the builds separate 
 
 `ng build --configuration production --base-href=https://legallab.ca/`
+
+`ng build --configuration production` To create with default base-href (the correct choice is build is in root folder)
