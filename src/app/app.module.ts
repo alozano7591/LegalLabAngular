@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ServicesComponent } from './components/services/services.component';
 import {NgOptimizedImage} from "@angular/common";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Contact2Component } from './components/contact2/contact2.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavComponent,
     FooterComponent,
     ServicesComponent,
-    HomeComponent
+    HomeComponent,
+    Contact2Component
   ],
   imports: [
     BrowserModule,

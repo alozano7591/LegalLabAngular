@@ -1,0 +1,285 @@
+/**** Hero Section ****/
+
+.hero{
+  position: relative;
+  text-align: right;
+  height: 650px;
+}
+
+.hero img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center ;
+  padding: 0;
+  margin: 0;
+}
+
+.heroTextContainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(158, 158, 158, 0.075);
+  padding: 20px;
+  color:whitesmoke;
+
+}
+
+.aboutHeroText{
+  text-align:center;
+}
+
+.aboutHeroText h2{
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 600px;
+}
+
+
+/**** Hero Section END ****/
+
+/**** Contact Section ****/
+
+.contactSection{
+
+  text-align: center;
+  padding: 55px 185px;
+
+  justify-content: center;
+
+}
+
+.contactSection h1{
+
+  font-size: 40px;
+
+}
+
+.contactSection h3{
+
+  font-size: 18px;
+  color:rgb(49, 49, 49);
+  font-weight:400;
+  line-height: 18px;
+
+}
+
+.contacts{
+
+  /* padding: 80px 0; */
+  /*
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  */
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 50px 30px;
+  padding: 0;
+  margin: 0;
+
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.locSect{
+  margin-top: 50px;
+  font-size: larger;
+  background-color: white;
+}
+
+.contactItem{
+  margin: auto;
+  position: relative;
+  /* flex: 450px; */
+
+  border-radius: 25px;
+
+  /* max-width: 500px; */
+  width:400px;
+  height: 500px;
+  min-width: 200px;
+
+  border: 1px solid rgb(197, 197, 197);
+  box-shadow: 10px 10px 10px 10px #888888;
+
+  padding: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.contactItem h2{
+  font-size: 24px;
+
+  padding-bottom: 8px;
+}
+
+.contactItem h3{
+  font-size: 18px;
+}
+
+
+.contactItem .contactInfo{
+
+  text-align: left;
+  overflow-wrap:break-word;
+  padding: 0 0 0 25px ;
+}
+
+.contactPic img{
+  height: 200px;
+  width: 200px;
+
+
+  /*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  translate: -12px 0;
+
+   */
+
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.contactCardTable{
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  width: 100%;
+}
+
+.contactCardTable h4{
+  text-align: left;
+  padding: 0px;
+  line-height: 38px;
+  font-size: 18px;
+}
+
+
+.contactItem h4{
+
+  /* color: green; */
+  color: black;
+  /* line-height: 0; */
+}
+
+/**** Contact Section END ****/
+
+/******* Locations ******/
+
+.locations{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.location-item h3{
+  font-size: larger;
+  padding: 0 0px 20px 0;
+}
+
+.location-item p{
+  line-height: 8px;
+}
+
+.locMap{
+  width:500px;
+  height:450px;
+}
+
+/******** end locations ********/
+
+@media only screen and (max-width: 1150px){
+
+  .contactSection{
+    text-align: center;
+    padding: 55px 25px;
+  }
+
+  .contacts{
+
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+  }
+
+  .contactItem{
+
+    /* max-width: 500px; */
+    width:350px;
+    height: 300px;
+    min-width: 200px;
+  }
+
+  /******* Locations ******/
+
+  .locations{
+    display: flex;
+    gap: 35px 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .location-item{
+    width: 100%;
+  }
+
+  .locMap{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /******** end locations ********/
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .hero img{
+
+    height: 100%;
+    object-fit: cover;
+    object-position: 30% 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contactSection{
+    text-align: center;
+    padding: 55px 0px;
+  }
+
+  .contactSection h1{
+    font-size: 35px;
+  }
+
+
+}

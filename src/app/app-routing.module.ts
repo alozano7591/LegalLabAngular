@@ -7,6 +7,7 @@ import{HomeComponent} from "./components/home/home.component";
 import{AboutComponent} from "./components/about/about.component";
 import{ServicesComponent} from "./components/services/services.component";
 import{ContactComponent} from "./components/contact/contact.component";
+import {Contact2Component} from "./components/contact2/contact2.component";
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
@@ -35,7 +36,16 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  /*
+  {
+
+    path: 'contact2',
+    component: Contact2Component
+
   }
+
+   */
 
 ];
 
