@@ -59,4 +59,4 @@ https://stackoverflow.com/questions/35284988/angular-2-404-error-occur-when-i-re
 
 `ng build --configuration production --base-href=https://legallab.ca/`
 
-`ng build --configuration production` To create with default base-href (the correct choice is build is in root folder)
+`ng build --configuration production` To create with default base-href (the correct choice - build is in root folder)
