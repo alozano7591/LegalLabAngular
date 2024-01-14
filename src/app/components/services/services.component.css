@@ -62,7 +62,7 @@
   line-height: 0;
 }
 
-.serviceItems{
+.serviceItems, .serviceItems-row1, .serviceItems-row2{
 
   display: flex;
   gap: 35px;
