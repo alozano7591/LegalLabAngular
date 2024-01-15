@@ -97,6 +97,7 @@
 }
 
 .contactItem{
+
   margin: auto;
   position: relative;
   /* flex: 450px; */
@@ -104,7 +105,7 @@
   border-radius: 25px;
 
   /* max-width: 500px; */
-  width:400px;
+  width:480px;
   height: 300px;
   min-width: 200px;
 
@@ -113,8 +114,13 @@
 
   padding: 20px;
 
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr 1fr;
+
 }
 
 .contactItem h2{
@@ -127,12 +133,16 @@
   font-size: 18px;
 }
 
-
 .contactItem .contactInfo{
 
   text-align: left;
   overflow-wrap:break-word;
-  padding: 0 0px 0px 25px ;
+  padding: 0 0px 0px 25px;
+
+}
+
+.contactInfo{
+  width: 100%;
 }
 
 .contactCardTable{
@@ -155,6 +165,31 @@
   /* color: green; */
   color: black;
   /* line-height: 0; */
+}
+
+/*.card-info{*/
+/*  display: grid;*/
+/*  grid-gap: 25px;*/
+/*  grid-template-columns: 1fr 1fr;*/
+/*}*/
+
+.card-member{
+
+  /*align-items: center;*/
+  /*width: 120px;*/
+  /*height: 100%;*/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card-member img{
+  /*object-fit: cover;*/
+  width: 90%;
+  border-radius: 25px;
 }
 
 /**** Contact Section END ****/
@@ -207,9 +242,10 @@
   .contactItem{
 
     /* max-width: 500px; */
-    width:350px;
+    /*width: 480px;*/
     height: 300px;
     min-width: 200px;
+
   }
 
   /******* Locations ******/
@@ -254,12 +290,28 @@
 
   .contactSection{
     text-align: center;
-    padding: 55px 0px;
+    padding: 0px 0px;
+    margin: 0px;
   }
 
   .contactSection h1{
     font-size: 35px;
   }
 
+  .contactItem{
+
+    width:90%;
+    height: 300px;
+
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  .card-member img{
+    width: 120px;
+    height: 80%;
+    object-fit: cover;
+  }
 
 }
