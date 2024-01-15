@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+
+header{
+  text-align: center;
+  padding: 25px 100px;
+  margin:auto;
+  /* max-width: 1200px; */
+  max-width: 100%;
+
+  /* background-color: bisque; */
+}
+
+header img{
+  /*height: 85px;*/
+  /*padding: 15px;*/
+  height: 100px;
+  padding: 5px;
+}
+
+header img:hover{
+  cursor: pointer;
+}
+
+.titleHeader{
+  display: flex;
+}
+
+nav{
+  margin: auto;
+  /* background-color: gray; */
+  width: 80%;
+}
+
+.navLinks ul{
+  list-style-type: none;
+  padding: 0 5px;
+  /* background-color: aliceblue; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-gap: 0px; */
+
+}
+
+.navLinks ul li{
+  display: inline-block;
+  position: relative;
+
+}
+
+.navLinks ul li a{
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  /* color: rgb(0, 128, 0); */
+  color:black;
+
+  /* font-size: 30px; */
+  font-size: x-large;
+  font-weight: 400;
+
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif;  */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+}
+
+nav ul li a:hover{
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1150px){
+
+  header{
+    width: 100%;
+    padding: 25px 0;
+  }
+
+  .titleHeader{
+    width: 100%;
+    display: inline;
+    /*margin: 0 auto;*/
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  /**** Start Nav ****/
+  .navLinks ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    padding: 0;
+
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  .navLinks ul li a{
+    padding: 0;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Add responsive CSS here */
+
+  header{
+    width: 100%;
+    padding: 25px 0;
+  }
+
+  .titleHeader{
+    width: 100%;
+    display: inline;
+    /*margin: 0 auto;*/
+  }
+
+  /**** Start Nav ****/
+  .navLinks ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+
+  }
+
+  .navLinks ul li a{
+    padding: 0;
+    font-size: 16px;
+  }
+  /**** END Nav ****/
+
+  /**** Start Hero ****/
+  .homeHero{
+    position: relative;
+    text-align: right;
+  }
+
+  /**** End Hero ****/
+
+}
