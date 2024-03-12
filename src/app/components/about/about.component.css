@@ -122,21 +122,9 @@
 
 }
 
-.ourTeamItem img{
-  width: 80%;
-
-  height: 400px;
-  object-fit: cover;
-  object-position: top;
-}
-
-/** fixes Jennifer's picture positioning **/
-.ourTeamItem:first-child img{
-  object-position: center;
-}
-
 .ourTeamItem{
   border: 1px solid rgb(197, 197, 197);
+  border-radius: 25px;
   box-shadow: 10px 10px 10px 10px #888888;
 
   padding: 10px;
@@ -146,6 +134,21 @@
   line-height: 28px;
 
   min-height: 450px;
+}
+
+.ourTeamItem img{
+  width: 80%;
+
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+
+  border-radius: 25px;
+}
+
+/** fixes Jennifer's picture positioning **/
+.ourTeamItem:first-child img{
+  object-position: center;
 }
 
 .ourTeamItem h2{
@@ -204,8 +207,6 @@
     background-color:rgb(233, 233, 233);
 
   }
-
-
 
   .teamIntroImage{
     text-align: center;
@@ -272,6 +273,7 @@
     max-width: 500px;
 
     line-height: 28px;
+
   }
 
   /**** Practice Section END ****/
