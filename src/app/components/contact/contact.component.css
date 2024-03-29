@@ -148,7 +148,7 @@
   position: absolute;
   bottom: 25px;
   left: 20px;
-  width: 100%;
+  width: 90%;
 }
 
 .contactCardTable h4{
@@ -367,6 +367,7 @@
     padding: 0 15px 0 0;
   }
 */
+
   .card-member img{
     width: 0px;
     height: 90px;
